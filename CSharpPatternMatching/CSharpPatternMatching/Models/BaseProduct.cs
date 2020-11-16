@@ -4,7 +4,9 @@ using System.Text;
 
 namespace CSharpPatternMatching.Models
 {
-    public class Candy : BaseProduct
+    public class BaseProduct
     {
+        public string ShopName { get; set; }
+        public string ShopCity { get; set; }
     }
 }

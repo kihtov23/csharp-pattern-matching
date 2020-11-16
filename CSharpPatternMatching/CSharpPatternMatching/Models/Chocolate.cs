@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CSharpPatternMatching.Models
 {
-    public class Chocolate
+    public class Chocolate : BaseProduct
     {
         public string Size { get; set; }
     }
